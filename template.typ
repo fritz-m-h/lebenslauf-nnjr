@@ -55,20 +55,24 @@
   name: "Sample University", 
   degree: "B.S in Bullshit", 
   location: "Foo, BA", 
-  date: "Aug. 1600 - May 1750"
+  date: "Aug. 1600 - May 1750",
+  ..points
 ) = {
-  set block(above: 0.7em, below: 1em)
-  pad(left: 1em, right: 0.5em, grid(
-    columns: (3fr, 1fr),
-    align(left)[
-      *#name* \
-      _#degree _
-    ],
-    align(right)[
-      #location \
-      _#date _
-    ]
-  ))
+    set block(above: 0.7em, below: 1em)
+    pad(left: 1em, right: 0.5em, box[
+      #grid(
+        columns: (3fr, 1fr),
+        align(left)[
+          *#degree* \
+          _#name _
+        ],
+        align(right)[
+          #date \
+          _#location _
+        ]
+      )
+      #list(..points)
+    ])
 }
 
 #let exp_item(
