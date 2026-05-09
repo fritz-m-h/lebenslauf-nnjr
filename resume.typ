@@ -3,93 +3,137 @@
 #show: resume
 
 #header(
-  name: "Jake Ryan",
-  phone: "123-456-7890",
-  email: "jake@su.edu",
-  linkedin: "linkedin.com/in/jake",
-  site: "github.com/jake",
+  name: "Friedrich Maximilian Hruschka",
+  phone: "+4915257442126",
+  email: "friedrich.max.h@t-online.de",
+  linkedin: "linkedin.com/in/friedrich-hruschka",
+  site: "github.com/fritz-m-h",
 )
 
-#resume_heading[Education]
+#resume_heading[Berufserfahrung]
+#exp_item(
+  role: "Studentische Hilfskraft",
+  name: "Insitute for Automation of Complex Power Systems, RWTH Aachen",
+  location: "Aachen, DE",
+  date: "Apr. 2025 - Sep. 2025",
+  [Programmierung einer reverse-offloading-Software für Unikernel in C],
+)
+#exp_item(
+  role: "Praktikant",
+  name: "GEA Westfalia Separator Group GmbH",
+  location: "Oelde, DE",
+  date: "Okt. 2025 - Apr. 2025",
+  [Pflichtpraktikum und anschließendes freiwilliges Praktikum im Bereich Elektrotechnik/Automation],
+  [Eigenorganisierte Programmierung in Python],
+)
+#exp_item(
+  role: "Studentische Hilfskraft",
+  name: "Insitute for Advanced Mining Technology, RWTH Aachen",
+  location: "Aachen, DE",
+  date: "Apr. 2023 - Sep. 2024",
+  [Eigenorganisierte Programmierung von Anwendungssoftware in Java und Python],
+  [Verschiedene weitere Aufgaben, z.B. Übersetzung von Webseiten],
+)
+#exp_item(
+  role: "Studentische Hilfskraft",
+  name: "Insitut für interierte digitale Systeme, RWTH Aachen",
+  location: "Aachen, DE",
+  date: "Okt. 2022 - Jan. 2023",
+  [Tutorierung anderer Studenten in der Programmierung in C++],
+  [Durchführung und eigenständige Bewertung von Testaten]
+)
+
+#resume_heading[Ausbildung/Studium]
 #edu_item(
-  name: "Southwestern University",
-  degree: "Bachelor of Arts in Computer Science, Minor in Business",
-  location: "Georgetown, TX",
-  date: "Aug. 2018 - May 2021"
+  name: "RWTH Aachen",
+  degree: "Wirtschaftswissenschaften, M.Sc.",
+  location: "Aachen, DE",
+  date: "Okt. 2025 - heute",
+  [Zweiter Masterstudiengang],
+  [Vertiefungsrichtung: Operations Research und Management],
+  [Derzeit im zweiten Studiensemester, erste Klausuren bereits erfolgreich abgeschlossen]
 )
 #edu_item(
-  name: "Blinn College",
-  degree: "Associate's in Liberal Arts",
-  location: "Bryan, TX",
-  date: "Aug. 2014 - May 2018"
+  name: "Universitat Politècnica de València",
+  degree: "Ingeniería de Computadores y Redes",
+  location: "València, ES",
+  date: "Sep. 2025 - Feb. 2026",
+  [Auslandssemester mit Erasmus+-Förderung],
+  [Studiengang (engl. Computer and Network Engineering) inhaltlich stark korreliert zum entsprechenden RWTH-Master],
+  [Starker Fokus auf Hardwareentwicklung und systemnaher Software]
+)
+#edu_item(
+  name: "RWTH Aachen",
+  degree: "Computer Engineering, M.Sc.",
+  location: "Aachen, DE",
+  date: "Okt. 2024 - heute",
+  [Auf Bachelorstudium aufbauender Masterstudiengang],
+  [Derzeit nur noch ein Modul und Masterarbeit ausstehend],
+)
+#edu_item(
+  name: "RWTH Aachen",
+  degree: "Elektrotechnik, Informationstechnik und technische Informatik, B.Sc.",
+  location: "Aachen, DE",
+  date: "Okt. 2020 - Sep. 2024",
+  [Vertiefungsrichtung technische Informatik (engl. Computer Engineering)],
+  [Abschlussnote: 2,3],
+  [Bachelorarbeit am Insitute for Automation of Complex Power Systems
+  - Titel: "Vergleich von asynchronen Systemaufruftechniken für Unikernel"
+  - Note: 1,0
+  ],
+)
+#edu_item(
+  name: "Thomas-Morus-Gymnasium Oelde",
+  degree: "Schulbildung",
+  location: "Aachen, DE",
+  date: "Aug. 2012 - Jul. 2020",
+  [Abschluss der Schullaufbahn mit allgemeiner Hochschulreife],
+  [Abschlussnote: 1,0],
+  [Leistungskurse: Mathematik und Physik]
 )
 
-#resume_heading[Experience]
-#exp_item(
-  role: "Undergraduate Research Assistant",
-  name: "Texas A&M University",
-  location: "College Station, TX",
-  date: "June 2020 - Present",
-  [Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems],
-  [Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data],
-  [Explored ways to visualize GitHub collaboration in a classroom setting]
+#resume_heading("Fähigkeiten")
+#skill_item(
+  category: "Sprachen",
+  skills: "Deutsch (muttersprachlich), Englisch (C1), Spanisch (B1)"
 )
-#exp_item(
-  role: "Information Technology Support Specialist",
-  name: "Southwestern University",
-  location: "Georgetown, TX",
-  date: "Sep. 2018 - Present",
-  [Communicate with managers to set up campus computers used on campus],
-  [Assess and troubleshoot computer problems brought by students, faculty and staff],
-  [Maintain upkeep of computers, classroom equipment, and 200 printers across campus]
+#skill_item(
+  category: "Programmiersprachen",
+  skills: "C(++), Python, Java, (Assembly)"
 )
-#exp_item(
-  role: "Artificial Intelligence Research Assistant",
-  name: "Southwestern University",
-  location: "Georgetown, TX",
-  date: "May 2019 - July 2019",
-  [Explored methods to generate video game dungeons based off of #emph[The Legend of Zelda]],
-  [Developed a game in Java to test the generated dungeons],
-  [Contributed 50K+ lines of code to an established codebase via Git],
-  [Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable],
-  [Wrote an 8-page paper and gave multiple presentations on-campus],
-  [Presented virtually to the World Conference on Computational Intelligence]
+#skill_item(
+  category: "Anwendungsprogramme",
+  skills: "bash, git, LaTeX, Typst, Excel, Word, PowerPoint, Access"
 )
 
-#resume_heading("Projects")
-#project_item(
-  name: "Gitlytics",
-  skills: "Python, Flask, React, PostgreSQL, Docker",
-  date: "June 2020 - Present",
-  [Developed a full-stack web application using with Flask serving a REST API with React as the frontend],
-  [Implemented GitHub OAuth to get data from user’s repositories],
-  [Visualized GitHub data to show collaboration],
-  [Used Celery and Redis for asynchronous tasks]
+#resume_heading[Ehrenamt]
+#exp_item(
+  role: "Kassenprüfer einer Studentenverbindung",
+  name: "K.D.St.-V. Franconia Aachen",
+  location: "Aachen, DE",
+  date: "Apr. 2023 - Aug. 2024",
+  [Prüfung der Arbeit der nachfolgenden Kassenwärte im Rahmen monatlicher Kassenprüfungen],
 )
-#project_item(
-  name: "Simple Paintball",
-  skills: "Spigot API, Java, Maven, TravisCI, Git",
-  date: "May 2018 - May 2020",
-  [Developed a Minecraft server plugin to entertain kids during free time for a previous job],
-  [Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review],
-  [Implemented continuous delivery using TravisCI to build the plugin upon new a release],
-  [Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin]
+#exp_item(
+  role: "Kassenwart einer Studentenverbindung",
+  name: "K.D.St.-V. Franconia Aachen",
+  location: "Aachen, DE",
+  date: "Jul. 2022 - Mär. 2023 & Apr. 2026 - heute",
+  [Verantwortung für sämtliche Buchhaltungsangelegenheiten],
+  [Durchführung sämtlicher Buchungssätze],
+  [Jährliches Etatvolumen ca. 12000€],
+  [Realisierung von ca. 20000 jährlichen Transaktionen],
 )
+#exp_item(
+  role: "Messdienergruppenleiter",
+  name: "Pfarrei St. Johannes Oelde",
+  location: "Oelde, DE",
+  date: "Aug. 2017 - heute",
+  [Ehrenamtliche Arbeit mit Kindern und anderen jungen Erwachsenen],
+  [Selbstständige Durchführung von Gruppenstunden für Kinder im späten Grundschulalter],
+  [Durchführung von Gruppenaktivitäten für ca. 30 Kinder zwischen 10 und 15 Jahren],
+  [Messdienerplanung im Rahmen monatlicher Messdienerpläne
+  - Umfassende Kommunikation mit Messdienern und Eltern
+],
 
-#resume_heading("Technical Skills")
-#skill_item(
-  category: "Languages",
-  skills: "Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R"
-)
-#skill_item(
-  category: "Frameworks",
-  skills: "React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI"
-)
-#skill_item(
-  category: "Developer Tools",
-  skills: "Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse"
-)
-#skill_item(
-  category: "Libraries",
-  skills: "pandas, NumPy, Matplotlib"
 )
