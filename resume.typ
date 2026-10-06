@@ -51,7 +51,7 @@
   date: "Okt. 2025 - heute",
   [Zweiter Masterstudiengang],
   [Vertiefungsrichtung: Operations Research und Management],
-  [Derzeit im zweiten Studiensemester, erste Klausuren bereits erfolgreich abgeschlossen]
+  [Derzeit im dritten Studiensemester]
 )
 #edu_item(
   name: "Universitat Politècnica de València",
@@ -111,17 +111,16 @@
   role: "Kassenprüfer einer Studentenverbindung",
   name: "K.D.St.-V. Franconia Aachen",
   location: "Aachen, DE",
-  date: "Apr. 2023 - Aug. 2024",
+  date: "Apr. 2023 - Aug. 2024 & Jul. 2026 - heute",
   [Prüfung der Arbeit der nachfolgenden Kassenwärte im Rahmen monatlicher Kassenprüfungen],
 )
 #exp_item(
   role: "Kassenwart einer Studentenverbindung",
   name: "K.D.St.-V. Franconia Aachen",
   location: "Aachen, DE",
-  date: "Jul. 2022 - Mär. 2023 & Apr. 2026 - heute",
+  date: "Jul. 2022 - Mär. 2023 & Apr. 2026 - Jul. 2026",
   [Verantwortung für sämtliche Buchhaltungsangelegenheiten],
   [Durchführung sämtlicher Buchungssätze],
-  [Jährliches Etatvolumen ca. 12000€],
   [Realisierung von ca. 20000 jährlichen Transaktionen],
 )
 #exp_item(
